@@ -1,0 +1,61 @@
+body {
+  display: block;
+  margin: 40px 250px;
+  max-width: 700px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.16);
+  padding: 25px 16px;
+}
+
+h1 {
+  color: #878787;
+  font-size: 25px;
+  font-weight: 100;
+  margin: 10px 0 0;
+  line-height: 28px;
+}
+
+.WeatherSearchEngine {
+  font-family: sans-serif;
+}
+
+.searchBox {
+  padding: 7px 50px;
+  margin: 10px;
+}
+
+.searchButton {
+  padding: 8px 30px;
+  font-size: 15px;
+  background-color: #0062cc;
+  border-color: #0062cc;
+  color: white;
+}
+
+.currentCity {
+  padding: 8px 30px;
+  margin: 0 10px;
+  font-size: 15px;
+  background-color: #28a745;
+  border-color: #28a745;
+  color: white;
+}
+
+.weather-icon {
+  margin-top: 10px;
+}
+
+.temp-unit {
+  color: #333;
+  float: left;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.today-temp {
+  color: #333;
+  float: left;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+  padding-left: 10px;
+}
