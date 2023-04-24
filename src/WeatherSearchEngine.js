@@ -9,7 +9,6 @@ export default function WeatherSearchEngine(props) {
   const [description, setDescription] = useState("");
   const [humidity, setHumidity] = useState("");
   const [wind, setWind] = useState("");
-  let currentCity = props.city;
 
   function handleSearch(event) {
     event.preventDefault();
@@ -43,7 +42,7 @@ export default function WeatherSearchEngine(props) {
             <input type="submit" value="Current" className="currentCity" />
           </form>
           <div className="weather-details">
-            <h1>{props.city}</h1>
+            <h1>{city}</h1>
             <div className="dayTime">Monday 16:00</div>
             <div className="description">Clear Day</div>
           </div>
