@@ -68,10 +68,70 @@ export default function WeatherSearchEngine(props) {
               </ul>
             </div>
           </div>
+          <div className="row">
+            <div className="col-sm-2">
+              <div className="foecaste_day">Tue</div>
+              <div className="icon">
+                <ReactAnimatedWeather
+                  icon="CLOUDY"
+                  color="black"
+                  size="20"
+                  animate="true"
+                />
+              </div>
+              <div className="forecast_temp">6°</div>
+            </div>
+            <div className="col-sm-2">
+              <div className="foecaste_day">Wed</div>
+              <div className="icon">
+                <ReactAnimatedWeather
+                  icon="PARTLY_CLOUDY_DAY"
+                  color="black"
+                  size="20"
+                  animate="true"
+                />
+              </div>
+              <div className="forecast_temp">12°</div>
+            </div>
+            <div className="col-sm-2">
+              <div className="foecaste_day">Thur</div>
+              <div className="icon">
+                <ReactAnimatedWeather
+                  icon="RAIN"
+                  color="black"
+                  size="20"
+                  animate="true"
+                />
+              </div>
+              <div className="forecast_temp">15°</div>
+            </div>
+            <div className="col-sm-2">
+              <div className="foecaste_day">Fri</div>
+              <div className="icon">
+                <ReactAnimatedWeather
+                  icon="SLEET"
+                  color="black"
+                  size="20"
+                  animate="true"
+                />
+              </div>
+              <div className="forecast_temp">13°</div>
+            </div>
+            <div className="col-sm-2">
+              <div className="foecaste_day">Sat</div>
+              <div className="icon">
+                <ReactAnimatedWeather
+                  icon="CLEAR_DAY"
+                  color="SNOW"
+                  size="20"
+                  animate="true"
+                />
+              </div>
+              <div className="forecast_temp">20°</div>
+            </div>
+          </div>
         </div>
       </div>
-
     </div>
-    
   );
 }
